@@ -1,0 +1,47 @@
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Byte-compiled / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Vector DB / large generated artifacts ---
+*.faiss
+*.index
+chroma_db/
+*.pkl
+*.pickle
+
+# --- Data files (uncomment if you don't want to commit raw scraped data) ---
+# *.csv
+# *.json
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Logs ---
+*.log
